@@ -5,7 +5,7 @@ export const Register = () => {
   return (
     <div className='formContainer'>
       <div className="formWrapper">
-      <span className="logo">Chat App</span>
+      <span className="logo">Lamda App</span>
       <span className="title">Register</span>
         <form>
           <input type="text" placeholder='display name'/>
