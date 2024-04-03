@@ -1,17 +1,17 @@
-import React from 'react'
-import Add from "../images/addAvatar.png"
+import React from "react";
+import Add from "../images/addAvatar.png";
 
 export const Register = () => {
   return (
-    <div className='formContainer'>
+    <div className="formContainer">
       <div className="formWrapper">
-      <span className="logo">Chat App</span>
-      <span className="title">Register</span>
+        <span className="logo">We Chat</span>
+        <span className="title">Register</span>
         <form>
-          <input type="text" placeholder='display name'/>
-          <input type="email" placeholder='email'/>
-          <input type="password" placeholder='password'/> 
-          <input style={{display: "none"}}type="file" id="file"/>
+          <input type="text" placeholder="display name" />
+          <input type="email" placeholder="email" />
+          <input type="password" placeholder="password" />
+          <input style={{ display: "none" }} type="file" id="file" />
           <label htmlFor="file">
             <img src={Add} alt="add" />
             <span>Add an avatar</span>
@@ -21,7 +21,7 @@ export const Register = () => {
         <p>Do you have an acount? Login </p>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Register;
